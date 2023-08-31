@@ -1,0 +1,75 @@
+/* PAGINA CONTACTO */
+
+#contacto-body {
+    background: linear-gradient(90deg, #181818, #767676);
+    color: #d8dad3;
+    .h1-contacto {
+        text-align: center;
+        font-size: 40px;
+        margin: 20px 0 40px 0;
+    }
+    .form {
+        width: 60vw;
+        max-width: 500px;
+        min-width: 300px;
+        margin: 0 auto;
+        padding-bottom: 2em;
+        text-align: center;
+        .label {
+            display: block;
+            text-align: left;
+            .input-contacto,
+            .textarea {
+                width: 100%;
+                margin: 10px 0 0 0;
+                background: transparent;
+                border: none;
+                border-bottom: #313131 solid 1px;
+                color: #cacaca;
+            }
+            .input-contacto:focus {
+                height: 30px;
+            }
+        }
+        .boton-enviar {
+            width: 150px;
+            height: 40px;
+            font-size: 20px;
+            border: solid 2px #323232;
+            border-radius: 7px;
+            background-size: 200% 100%;
+            background-image: linear-gradient(to right, #f1f2eb, #767676);
+            cursor: pointer;
+            transition: background-position 0.3s ease;
+        }
+        .boton-enviar:hover {
+            background-color: #afaeae;
+            background-position: -100% 0;
+        }
+    }
+    .redes-sociales {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 20px;
+        font-size: 30px;
+        justify-content: center;
+        flex-wrap: wrap;
+        i {
+            width: 100px;
+            height: 45px;
+            transition: transform 0.2s;
+            text-align: center;
+            color: #f1f2eb;
+        }
+        i:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+@media (max-width: 440px) {
+    .redes-sociales i {
+        width: 75px;
+    }
+}

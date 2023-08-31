@@ -1,0 +1,18 @@
+//Variables, tipografias, reseteos, bootstrap//
+
+::selection {
+    background-color: #e54343d1;
+    color: #181818;
+}
+
+@import './recursos/fuentes';
+
+@import './recursos/reset';
+
+@import './sections/index';
+@import './sections/calistenia';
+@import './sections/ejercicios';
+@import './sections/tienda';
+@import './sections/contacto';
+
+@import "../node_modules/bootstrap/scss/bootstrap";

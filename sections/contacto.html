@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/png" href="../media/Calis-technics logo.png">
+    <script src="https://kit.fontawesome.com/899d54ae55.js" crossorigin="anonymous"></script>
+    <title>Contacto</title>
+</head>
+<body id="contacto-body">
+    <nav class="navbar navbar-expand-lg p-0">
+        <div class="container-fluid">
+            <a class="navbar-brand p-0 d-flex align-items-center justify-content-center" href="../index.html">
+                <img width="105" src="../media/Calis-technics logo.png" alt="Logo">
+                <p class="p-logo">CALIS-TECHNICS</p>
+            </a>
+
+            <button class="navbar-toggler border-black m-2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!--Barra buscadora-->
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-light text-uppercase" aria-current="page"
+                            href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light text-uppercase" href="./calistenia.html">Calistenia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light text-uppercase" href="./ejercicios.html">Ejercicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light text-uppercase" href="./tienda.html">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light text-uppercase active" href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <main>
+        <h1 class="h1-contacto">Contactate con nosotros!</h1>
+        <form class="form" method="post">
+            <label class="label" for="first-name">
+                Nombre: <br> 
+                <input class="input-contacto" id="first-name" name="first-name" type="text" required />
+            </label><br>
+            <label class="label" for="last-name">
+                Apellido: <br>
+                <input class="input-contacto" id="last-name" name="last-name" type="text" required />
+            </label><br>
+            <label class="label" for="email">
+                Email: <br>
+                <input class="input-contacto"t id="email" name="email" type="email" required />
+            </label><br>
+            <label class="label" for="new-password">
+                Numero de telefono: <br>
+                <input class="input-contacto" id="telefono" name="telefono" type="number" />
+            </label> <br>
+            <label class="label" for="consulta">
+                Escribinos tu consulta: <br>
+                <textarea class="textarea" id="consulta" name="consulta" rows="3" cols="30" placeholder="Hola, queria saber si..."></textarea>
+            </label> <br>
+            </fieldset>
+            <input class="boton-enviar" type="submit" value="Enviar" />
+        </form>
+            <div class="redes-sociales">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+    </main>
+    
+    <footer class="footer">
+        <div class="pre-footer">
+            <a href="#">Términos, condiciones y politicas de privacidad.</a>
+            <p>Email: soporte@calistechnics.com.ar</p>
+        </div>
+        <p>© Copyright 2023 Protect My Work Limited. All Rights Reserved.
+        </p>
+        <p>Direccion aleatoria 123, Bell Ville X2550, Córdoba, Argentina. Registro N 456123.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+</html>
