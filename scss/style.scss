@@ -1,12 +1,7 @@
 //Variables, tipografias, reseteos, bootstrap//
 
-::selection {
-    background-color: #e54343d1;
-    color: #181818;
-}
-
+@import './recursos/variables';
 @import './recursos/fuentes';
-
 @import './recursos/reset';
 
 @import './sections/index';

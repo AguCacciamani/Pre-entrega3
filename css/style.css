@@ -1,17 +1,18 @@
 @charset "UTF-8";
+/* Colores */
+/*FUENTES*/
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
-::selection {
-  background-color: rgba(229, 67, 67, 0.8196078431);
-  color: #181818;
-}
-
-/*FUENTES*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+::selection {
+  background-color: rgba(229, 67, 67, 0.8196078431);
+  color: #181818;
 }
 
 /*  INICIO  */

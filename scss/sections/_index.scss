@@ -11,12 +11,12 @@ html {
             z-index: 100;
             .p-logo {
                 font-family: 'Big Shoulders Stencil Text', cursive;
-                color: #d41c1c;
+                color: $rojo1;
                 font-size: 35px;
                 margin: 0;
             }
             .navbar-toggler {
-                background-color: #d41c1c;
+                background-color: $rojo1;
             }
             .collapse {
                 justify-content: space-evenly;
