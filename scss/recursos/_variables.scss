@@ -1,2 +1,16 @@
 /* Colores */
-$rojo1: #d41c1c;
+$light: #343434;
+$danger: #d41c1c;
+
+.btn-wrnng {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #FD350D;
+    --bs-btn-border-color: #FD350D;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #fd5331;
+    --bs-btn-hover-border-color: #fd4925;
+    --bs-btn-active-bg: #fd5d3d;
+    --bs-btn-active-border-color: #fd4925;
+    --bs-btn-disabled-bg: #FD350D;
+    --bs-btn-disabled-border-color: #FD350D; 
+}
