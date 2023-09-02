@@ -29,7 +29,7 @@
             }
             a {
                 text-decoration: none;
-                color: #d8dad3;
+                color: $light;
                 padding: 0.375rem 0.75rem;
                 &:hover {
                     color: #f1f2eb;
@@ -57,6 +57,7 @@
 /* Main */
 
 .main-tienda {
+    background: linear-gradient(90deg, $dark, #767676);
     .indumentaria {
         .hombres {
             .banner-hombres {
@@ -83,6 +84,7 @@
             margin-top: 30px;
             margin-left: 50px;
             text-decoration: underline;
+            color: $light;
         }
     }
     .div-remeras {
@@ -105,7 +107,7 @@
     }
     .card{
         margin: 20px 15px;
-        box-shadow: 2px 2px 6px 0px #a7a7a7;
+        box-shadow: 2px 2px 6px 0px #272727;
         text-transform: uppercase;
         .card-body {
             padding: 10px;

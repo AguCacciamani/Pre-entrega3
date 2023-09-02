@@ -1,8 +1,8 @@
 /* PAGINA CONTACTO */
 
 #contacto-body {
-    background: linear-gradient(90deg, #181818, #767676);
-    color: #d8dad3;
+    background: linear-gradient(90deg, $dark, #767676);
+    color: $light;
     .h1-contacto {
         text-align: center;
         font-size: 40px;

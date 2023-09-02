@@ -21,7 +21,7 @@ html {
                 justify-content: space-evenly;
             }
             .text-light {
-                color: #d8dad3!important;
+                color: $light!important;
             }
             .active {
                 background-color: #515151;
@@ -35,17 +35,17 @@ html {
             }
         }
         #main-index {
-            background: linear-gradient(90deg, #181818, #767676);
+            background: linear-gradient(90deg, $dark, #767676);
             h1 {
                 font-size: 37px;
                 text-align: center;
                 margin: 10px;
-                color: #d8dad3;
+                color: $light;
             }
             h2 {
                 text-align: center;
                 margin: 10px;
-                color: #d8dad3;
+                color: $light;
             }
             .carousel-item .carousel-caption {
                 background-color: #181818b3;
@@ -82,14 +82,14 @@ html {
                     }
                     .fa-solid {
                         font-size: 60px;
-                        color: #181818;
+                        color: $dark;
                     }
                 }
             }
         }
         .footer {
             color: #929292;
-            background-color: #181818;
+            background-color: $dark;
             text-align: center;
             font-family: 'Times New Roman', Times, serif;
             p {
