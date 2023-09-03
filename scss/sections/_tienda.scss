@@ -147,6 +147,16 @@
         justify-content: space-evenly;
         flex-direction: row;
         flex-wrap: wrap;
+        .card:nth-child(5) {
+            img {
+                height: 238px;
+            }
+        }
+        .card:nth-child(6) {
+            img {
+                height: 238px;
+            }
+        }
     }
     .div-suplementos {
         display: flex;
@@ -171,15 +181,17 @@
     }
     .envios {
         text-align: center;
+        padding: 20px 0;
         form {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            margin: 30px 0;
+            margin-top: 30px;
             align-items: center;
             i {
                 font-size: 30px;
                 margin: 0 10px;
+                color: #000;
             }
             input {
                 margin: 0 10px;

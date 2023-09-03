@@ -577,6 +577,12 @@ html body .footer .pre-footer a {
   flex-direction: row;
   flex-wrap: wrap;
 }
+.main-tienda .div-elementos .card:nth-child(5) img {
+  height: 238px;
+}
+.main-tienda .div-elementos .card:nth-child(6) img {
+  height: 238px;
+}
 .main-tienda .div-suplementos {
   display: flex;
   justify-content: space-evenly;
@@ -599,17 +605,19 @@ html body .footer .pre-footer a {
 }
 .main-tienda .envios {
   text-align: center;
+  padding: 20px 0;
 }
 .main-tienda .envios form {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 30px 0;
+  margin-top: 30px;
   align-items: center;
 }
 .main-tienda .envios form i {
   font-size: 30px;
   margin: 0 10px;
+  color: #000;
 }
 .main-tienda .envios form input {
   margin: 0 10px;
