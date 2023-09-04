@@ -61,28 +61,31 @@ html {
                 justify-content: space-evenly;
                 align-items: center;
                 flex-wrap: wrap;
+                overflow: hidden;
                 .tarjeta {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
                     justify-content: space-around;
                     flex-wrap: wrap;
+                    transform: skew(-22deg);
                     background-color: #ab1e1e;
-                    width: 212px;
+                    width: 258px;
                     height: 278px;
-                    margin: 10px 20px;
-                    border-radius: 10px;
+                    margin: 10px 0;
+                    border-radius: 20px 0 20px 0;
                     box-shadow: 3px 3px 6px #313131;
                     p {
-                        width: auto;
+                        width: 90%;
                         height: auto;
                         text-align: center;
                         margin: -11px 0;
-                        background-color: #ff5d55;
+                        transform: skew(22deg);
                     }
                     .fa-solid {
                         font-size: 60px;
                         color: $dark;
+                        transform: skew(22deg);
                     }
                 }
             }
