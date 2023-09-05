@@ -72,13 +72,16 @@ html body #main-index {
 html body #main-index h1, html body #main-index .h1 {
   font-size: 37px;
   text-align: center;
-  margin: 10px;
+  margin: 35px 10px 10px;
   color: #d8dad3;
 }
 html body #main-index h2, html body #main-index .h2 {
   text-align: center;
   margin: 10px;
   color: #d8dad3;
+}
+html body #main-index .carousel-item {
+  max-height: 580px;
 }
 html body #main-index .carousel-item .carousel-caption {
   background-color: rgba(24, 24, 24, 0.7019607843);
@@ -94,30 +97,63 @@ html body #main-index .tarjetas-container {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 html body #main-index .tarjetas-container .tarjeta {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
-  background-color: #ab1e1e;
-  width: 212px;
+  transform: skew(-22deg);
+  background-color: #d8dad3;
+  width: 258px;
   height: 278px;
-  margin: 10px 20px;
-  border-radius: 10px;
-  box-shadow: 3px 3px 6px #313131;
-}
-html body #main-index .tarjetas-container .tarjeta p {
-  width: auto;
-  height: auto;
-  text-align: center;
-  margin: -11px 0;
-  background-color: #ff5d55;
+  margin: 35px 0;
+  border-radius: 20px 0 20px 0;
+  box-shadow: 5px 4px 8px 0px #2a2323;
+  overflow: hidden;
 }
 html body #main-index .tarjetas-container .tarjeta .fa-solid {
   font-size: 60px;
+  color: #000;
+  transform: skew(22deg);
+  position: absolute;
+  z-index: 10;
+  margin: 84px -37px;
+}
+html body #main-index .tarjetas-container .tarjeta .tarjeta-img {
+  width: 100%;
+  height: 70%;
+}
+html body #main-index .tarjetas-container .tarjeta .tarjeta-img img {
+  transform: skew(22deg);
+  object-fit: cover;
+  position: absolute;
+  height: 80%;
+  top: 0;
+  left: -50px;
+  opacity: 70%;
+}
+html body #main-index .tarjetas-container .tarjeta .tarjeta-p {
+  width: 100%;
+  height: 20%;
+}
+html body #main-index .tarjetas-container .tarjeta .tarjeta-p p {
+  width: 90%;
+  height: auto;
+  text-align: center;
+  transform: skew(22deg);
   color: #181818;
+}
+html body #main-index .tarjetas-container .tarjeta-contacto .tarjeta-img .img-tarjeta-contacto {
+  transform: skew(22deg);
+  object-fit: cover;
+  position: absolute;
+  height: 84%;
+  top: -12px;
+  left: -51px;
+  opacity: 70%;
 }
 html body .footer {
   color: #929292;
@@ -154,6 +190,14 @@ html body .footer .pre-footer a {
 @media (max-width: 330px) {
   .navbar-brand {
     flex-wrap: wrap;
+  }
+}
+@media (max-width: 768px) {
+  .interactive-main .tarjetas-container .tarjeta {
+    margin: 10px 0 !important;
+  }
+  .interactive-main .tarjetas-container .tarjeta-info {
+    margin: 20px 0 10px !important;
   }
 }
 /*  PAGINA CALISTENIA  */
