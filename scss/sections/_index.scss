@@ -188,4 +188,16 @@ html {
         flex-wrap: wrap;
     }
 }
-    
+
+@media (max-width: 768px) {
+    .interactive-main {
+        .tarjetas-container {
+            .tarjeta {
+                margin: 10px 0 !important;
+            }
+            .tarjeta-info {
+                margin: 20px 0 10px !important;
+            }
+        }
+    }
+}

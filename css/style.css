@@ -189,6 +189,14 @@ html body .footer .pre-footer a {
     flex-wrap: wrap;
   }
 }
+@media (max-width: 768px) {
+  .interactive-main .tarjetas-container .tarjeta {
+    margin: 10px 0 !important;
+  }
+  .interactive-main .tarjetas-container .tarjeta-info {
+    margin: 20px 0 10px !important;
+  }
+}
 /*  PAGINA CALISTENIA  */
 #main-calistenia {
   width: 100%;
