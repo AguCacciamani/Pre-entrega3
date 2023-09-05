@@ -59,13 +59,15 @@ html {
                 color: $light;
             }
 
-            .carousel-item .carousel-caption {
-                background-color: #181818b3;
-                padding: 10px;
-
-                h4 {
-                    text-transform: uppercase;
-                }
+            .carousel-item {
+                max-height: 560px;
+                .carousel-caption {
+                    background-color: #181818b3;
+                    padding: 10px;
+                    h4 {
+                        text-transform: uppercase;
+                    }
+                } 
             }
 
             .tarjetas-container {

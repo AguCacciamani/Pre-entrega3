@@ -80,6 +80,9 @@ html body #main-index h2, html body #main-index .h2 {
   margin: 10px;
   color: #d8dad3;
 }
+html body #main-index .carousel-item {
+  max-height: 560px;
+}
 html body #main-index .carousel-item .carousel-caption {
   background-color: rgba(24, 24, 24, 0.7019607843);
   padding: 10px;
