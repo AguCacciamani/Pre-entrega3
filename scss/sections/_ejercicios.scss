@@ -60,10 +60,12 @@
             font-style: italic;
             margin: 0 auto 10px;
         }
-        .div-planche-progresiones img {
-            width: 70%;
-            margin: 20px;
-        }
+        .div-planche-progresiones {
+            img {
+                width: 70%;
+                margin: 20px;
+            }
+        } 
          h3 {
             margin: 20px 0;
         }
@@ -126,16 +128,22 @@
     .planche, .lever {
         flex-direction: column;
     }
-    .div-frontLever-ejercicios iframe {
-        height: 300px;
-        width: 80%;
+    .div-frontLever-ejercicios {
+        iframe {
+            height: 300px;
+            width: 80%;
+        }
+    } 
+    .div-planche-ejercicios {
+        iframe {
+            width: 80%;
+        }
     }
-    .div-planche-ejercicios iframe {
-        width: 80%;
-    }
-    .basicos-section iframe {
-        width: 80%;
-    }
+    .basicos-section {
+        iframe {
+            width: 80%;
+        }
+    }    
     .espacio-en-blanco {
         display: flex;
         width: 100%;
@@ -156,12 +164,18 @@
     .basicos-section {
         align-items: flex-start;
     }
-    .sections-container .basicos-section .introduccion {
-        margin: 0;
-        width: 100%;
-    }
-    .basicos-section p {
-        margin: 15px 10px;
-        width: 90%;
-    }
+    .sections-container {
+        .basicos-section {
+            .introduccion {
+                margin: 0;
+                width: 100%;
+            }
+        } 
+    } 
+    .basicos-section {
+        p {
+            margin: 15px 10px;
+            width: 90%;
+        }
+    } 
 }
