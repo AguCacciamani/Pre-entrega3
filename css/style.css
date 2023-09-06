@@ -714,8 +714,19 @@ html body .footer .pre-footer a {
   border-bottom: #313131 solid 1px;
   color: #cacaca;
 }
+#contacto-body .form .label .input-contacto:hover {
+  background-image: linear-gradient(to top, rgba(149, 149, 149, 0.5254901961), 30%, transparent);
+}
 #contacto-body .form .label .input-contacto:focus {
   height: 30px;
+  background-image: inherit;
+}
+#contacto-body .form .label .textarea:hover {
+  background-image: linear-gradient(to top, rgba(149, 149, 149, 0.5254901961), 30%, transparent);
+}
+#contacto-body .form .label .textarea:focus {
+  height: 30px;
+  background-image: inherit;
 }
 #contacto-body .form .boton-enviar {
   width: 150px;

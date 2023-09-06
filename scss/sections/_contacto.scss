@@ -27,8 +27,19 @@
                 border-bottom: #313131 solid 1px;
                 color: #cacaca;
             }
+            .input-contacto:hover {
+                background-image: linear-gradient(to top, #95959586, 30%, transparent);
+            }
             .input-contacto:focus {
                 height: 30px;
+                background-image: inherit;
+            }
+            .textarea:hover {
+                background-image: linear-gradient(to top, #95959586, 30%, transparent);
+            }
+            .textarea:focus {
+                height: 30px;
+                background-image: inherit;
             }
         }
         .boton-enviar {
