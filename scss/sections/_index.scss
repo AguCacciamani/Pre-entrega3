@@ -93,6 +93,10 @@ html {
                     border-radius: 20px 0 20px 0;
                     box-shadow: 5px 4px 8px 0px #2a2323;
                     overflow: hidden;
+                    transition: all .2s;
+                    &:hover {
+                        transform: scale(1.1) skew(-22deg);
+                    }
 
                     .fa-solid {
                         font-size: 60px;

@@ -113,6 +113,10 @@ html body #main-index .tarjetas-container .tarjeta {
   border-radius: 20px 0 20px 0;
   box-shadow: 5px 4px 8px 0px #2a2323;
   overflow: hidden;
+  transition: all 0.2s;
+}
+html body #main-index .tarjetas-container .tarjeta:hover {
+  transform: scale(1.1) skew(-22deg);
 }
 html body #main-index .tarjetas-container .tarjeta .fa-solid {
   font-size: 60px;
@@ -550,13 +554,7 @@ html body .footer .pre-footer a {
 .main-tienda {
   background-image: linear-gradient(90deg, #181818, #767676);
 }
-.main-tienda .indumentaria .hombres .banner-hombres img {
-  width: 100%;
-}
-.main-tienda .indumentaria .mujeres .banner-mujeres img {
-  width: 100%;
-}
-.main-tienda .indumentaria .accesorios .banner-accesorios img {
+.main-tienda .indumentaria section div img {
   width: 100%;
 }
 .main-tienda .indumentaria h3, .main-tienda .indumentaria .h3 {
@@ -565,19 +563,19 @@ html body .footer .pre-footer a {
   text-decoration: underline;
   color: #d8dad3;
 }
-.main-tienda .div-remeras {
+.main-tienda .indumentaria .div-remeras {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
   flex-wrap: wrap;
 }
-.main-tienda .div-pantalones {
+.main-tienda .indumentaria .div-pantalones {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
   flex-wrap: wrap;
 }
-.main-tienda .div-buzos {
+.main-tienda .indumentaria .div-buzos {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
@@ -587,6 +585,7 @@ html body .footer .pre-footer a {
   margin: 20px 15px;
   box-shadow: 2px 2px 6px 0px #272727;
   text-transform: uppercase;
+  transition: all 0.2s;
 }
 .main-tienda .card .card-body {
   padding: 10px;
@@ -598,6 +597,9 @@ html body .footer .pre-footer a {
 }
 .main-tienda .card .card-body .card-text {
   color: #4b4b4b;
+}
+.main-tienda .card:hover {
+  transform: translateY(-15px);
 }
 .main-tienda .accesorios #accesorios img {
   margin: 20px 0;
