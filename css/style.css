@@ -340,6 +340,13 @@ html body .footer .pre-footer a {
     margin: 10px auto;
   }
 }
+@media (max-width: 500px) {
+  #main-calistenia .img-main-calistenia img {
+    width: 100%;
+    height: initial;
+    object-fit: cover;
+  }
+}
 /* PAGINA EJERCICIOS */
 .espacio-en-blanco {
   display: flex;
@@ -484,14 +491,17 @@ html body .footer .pre-footer a {
   .h1-ejercicios {
     font-size: 3.5rem !important;
   }
-  .basicos-section {
+  .sections-container .basicos-section {
     align-items: flex-start;
+  }
+  .sections-container .basicos-section h2, .sections-container .basicos-section .h2 {
+    margin: 0 10px;
   }
   .sections-container .basicos-section .introduccion {
     margin: 0;
     width: 100%;
   }
-  .basicos-section p {
+  .sections-container .basicos-section p {
     margin: 15px 10px;
     width: 90%;
   }

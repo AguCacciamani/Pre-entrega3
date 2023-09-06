@@ -161,21 +161,20 @@
     .h1-ejercicios {
         font-size: 3.5rem !important;
     }
-    .basicos-section {
-        align-items: flex-start;
-    }
     .sections-container {
         .basicos-section {
+            align-items: flex-start;
+            h2 {
+                margin: 0 10px;
+            }
             .introduccion {
                 margin: 0;
                 width: 100%;
             }
+            p {
+                margin: 15px 10px;
+                width: 90%;
+            }
         } 
-    } 
-    .basicos-section {
-        p {
-            margin: 15px 10px;
-            width: 90%;
-        }
-    } 
+    }
 }
