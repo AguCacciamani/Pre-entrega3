@@ -134,32 +134,42 @@
 
     .primer-div {
         display: flex !important;
-        flex-direction: column; 
-        .primer-div-texto p {
-            margin: 20px;
+        flex-direction: column;
+
+        .primer-div-texto {
+            p {
+                margin: 20px;
+            }
         }
+
         .primer-div-img {
             padding: 0;
             margin: 10px auto;
         }
     }
+
     .segundo-div {
         display: flex !important;
         flex-direction: column-reverse;
+
         h2 {
             text-align: left;
         }
+
         p {
             text-align: left;
             margin: 20px;
         }
     }
+
     .tercer-div {
         display: flex !important;
         flex-direction: column;
+
         p {
             margin: 20px;
         }
+
         iframe {
             margin: 10px auto;
         }
@@ -174,6 +184,6 @@
                 height: initial;
                 object-fit: cover;
             }
-        } 
+        }
     }
 }

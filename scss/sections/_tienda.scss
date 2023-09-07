@@ -12,6 +12,7 @@
     flex-direction: row;
     align-items: center;
     text-transform: uppercase;
+
     .subNav {
         width: 100%;
         margin: 5px 0;
@@ -20,22 +21,27 @@
         list-style: none;
         flex-wrap: wrap;
         justify-content: space-evenly;
+
         li {
             margin: auto;
             font-family: 'Montserrat', sans-serif;
+
             .fa-solid {
                 font-size: 18px;
                 color: #f1f2eb;
             }
+
             a {
                 text-decoration: none;
                 color: $light;
                 padding: 0.375rem 0.75rem;
+
                 &:hover {
                     color: #f1f2eb;
                     border: 1px solid #565e64;
                 }
             }
+
             .btn-secondary {
                 --bs-btn-color: #f1f2eb;
                 --bs-btn-bg: #131313;
@@ -43,6 +49,7 @@
                 --bs-btn-hover-bg: #131313;
                 --bs-btn-active-bg: #131313;
             }
+
             .dropdown-menu {
                 --bs-dropdown-bg: #131313;
                 --bs-dropdown-border-radius: none;
@@ -57,6 +64,7 @@
 
 .main-tienda {
     background-image: linear-gradient(90deg, $dark, #767676);
+
     .indumentaria {
         section {
             div {
@@ -65,24 +73,28 @@
                 }
             }
         }
+
         h3 {
             margin-top: 30px;
             margin-left: 50px;
             text-decoration: underline;
             color: $light;
         }
+
         .div-remeras {
             display: flex;
             justify-content: space-evenly;
             flex-direction: row;
             flex-wrap: wrap;
         }
+
         .div-pantalones {
             display: flex;
             justify-content: space-evenly;
             flex-direction: row;
             flex-wrap: wrap;
         }
+
         .div-buzos {
             display: flex;
             justify-content: space-evenly;
@@ -90,11 +102,13 @@
             flex-wrap: wrap;
         }
     }
-    .card{
+
+    .card {
         margin: 20px 15px;
         box-shadow: 2px 2px 6px 0px #272727;
         text-transform: uppercase;
         transition: all .2s;
+
         .card-body {
             padding: 10px;
             font-size: 13px;
@@ -102,97 +116,117 @@
             flex-direction: column;
             justify-content: space-between;
             flex-wrap: wrap;
+
             a {
-               @extend .btn-wrnng; 
+                @extend .btn-wrnng;
             }
+
             .card-text {
                 color: #4b4b4b;
             }
         }
+
         &:hover {
             transform: translateY(-15px);
         }
     }
+
     .accesorios {
         #accesorios {
             img {
-            margin: 20px 0;
+                margin: 20px 0;
             }
         }
+
         .div-accesorios {
             display: flex;
             justify-content: space-evenly;
             flex-direction: row;
             flex-wrap: wrap;
+
             .card {
                 margin: 20px 30px;
             }
         }
     }
+
     #elementos {
         img {
             margin: 20px 0;
             width: 100%;
         }
     }
+
     .div-elementos {
         display: flex;
         justify-content: space-evenly;
         flex-direction: row;
         flex-wrap: wrap;
+
         .card:nth-child(5) {
             img {
                 height: 238px;
             }
         }
+
         .card:nth-child(6) {
             img {
                 height: 238px;
             }
         }
     }
+
     .div-suplementos {
         display: flex;
         justify-content: space-evenly;
         flex-direction: row;
         flex-wrap: wrap;
+
         .card {
             align-items: center;
+
             img {
                 height: 238px;
                 width: 87%;
             }
         }
+
         .card:nth-child(2) img {
             padding-top: 20px;
         }
 
     }
+
     #suplementos {
         img {
             margin: 20px 0;
-            width: 100%; 
+            width: 100%;
         }
     }
+
     .envios {
         text-align: center;
         padding: 20px 0;
+
         form {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             margin-top: 30px;
             align-items: center;
+
             i {
                 font-size: 30px;
                 margin: 0 10px;
                 color: #000;
             }
+
             input {
                 margin: 0 10px;
                 border-radius: 7px;
                 padding: 6px 12px;
             }
+
             button {
                 padding: 8px 6px;
                 border-radius: 5px;
@@ -201,10 +235,11 @@
                 border: 2px solid #3a3a3a;
             }
         }
+
         h3 {
             font-size: 60px;
             color: $danger;
             text-shadow: 3px 1px 3px black;
         }
-    } 
+    }
 }

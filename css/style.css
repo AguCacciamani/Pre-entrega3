@@ -462,7 +462,8 @@ html body .footer .pre-footer a {
   .h1-ejercicios {
     font-size: 6rem !important;
   }
-  .planche, .lever {
+  .planche,
+  .lever {
     flex-direction: column;
   }
   .div-frontLever-ejercicios iframe {
@@ -735,7 +736,6 @@ html body .footer .pre-footer a {
   background-image: linear-gradient(to top, rgba(149, 149, 149, 0.5254901961), 30%, transparent);
 }
 #contacto-body .form .label .textarea:focus {
-  height: 30px;
   background-image: inherit;
 }
 #contacto-body .form .boton-enviar {
@@ -770,7 +770,7 @@ html body .footer .pre-footer a {
   color: #f1f2eb;
 }
 #contacto-body .redes-sociales i:hover {
-  transform: scale(1.1);
+  transform: scale(1.3);
 }
 
 @media (max-width: 440px) {

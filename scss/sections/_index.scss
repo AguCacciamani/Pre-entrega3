@@ -61,13 +61,15 @@ html {
 
             .carousel-item {
                 max-height: 580px;
+
                 .carousel-caption {
                     background-color: #181818b3;
                     padding: 10px;
+
                     h4 {
                         text-transform: uppercase;
                     }
-                } 
+                }
             }
 
             .tarjetas-container {
@@ -94,6 +96,7 @@ html {
                     box-shadow: 5px 4px 8px 0px #2a2323;
                     overflow: hidden;
                     transition: all .2s;
+
                     &:hover {
                         transform: scale(1.1) skew(-22deg);
                     }
@@ -110,6 +113,7 @@ html {
                     .tarjeta-img {
                         width: 100%;
                         height: 70%;
+
                         img {
                             transform: skew(22deg);
                             object-fit: cover;
@@ -178,15 +182,20 @@ html {
             }
         }
     }
-}    
-@media (max-width: 458px) {
-    .navbar .container-fluid {
-                justify-content: space-between;
-    }
+}
 
-    .navbar-brand .p-logo {
-        display: none;
-    }
+@media (max-width: 458px) {
+    .navbar {
+        .container-fluid {
+            justify-content: space-between;
+        }
+    } 
+
+    .navbar-brand {
+        .p-logo {
+            display: none;
+        }
+    } 
 }
 
 @media (max-width: 330px) {
@@ -201,6 +210,7 @@ html {
             .tarjeta {
                 margin: 10px 0 !important;
             }
+
             .tarjeta-info {
                 margin: 20px 0 10px !important;
             }
