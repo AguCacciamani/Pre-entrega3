@@ -91,7 +91,7 @@ html {
                     background-color: $light;
                     width: 258px;
                     height: 278px;
-                    margin: 35px 0;
+                    margin: 35px 5px;
                     border-radius: 20px 0 20px 0;
                     box-shadow: 5px 4px 8px 0px #2a2323;
                     overflow: hidden;
@@ -178,6 +178,10 @@ html {
                     color: #fff;
                     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
                     cursor: pointer;
+                    &:hover {
+                        text-decoration: underline;
+                        color: $danger;
+                    }
                 }
             }
         }
@@ -208,11 +212,11 @@ html {
     .interactive-main {
         .tarjetas-container {
             .tarjeta {
-                margin: 10px 0 !important;
+                margin: 10px 5px !important;
             }
 
             .tarjeta-info {
-                margin: 20px 0 10px !important;
+                margin: 20px 5px 10px !important;
             }
         }
     }

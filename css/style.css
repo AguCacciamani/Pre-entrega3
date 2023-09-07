@@ -109,7 +109,7 @@ html body #main-index .tarjetas-container .tarjeta {
   background-color: #d8dad3;
   width: 258px;
   height: 278px;
-  margin: 35px 0;
+  margin: 35px 5px;
   border-radius: 20px 0 20px 0;
   box-shadow: 5px 4px 8px 0px #2a2323;
   overflow: hidden;
@@ -182,6 +182,10 @@ html body .footer .pre-footer a {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   cursor: pointer;
 }
+html body .footer .pre-footer a:hover {
+  text-decoration: underline;
+  color: #d41c1c;
+}
 
 @media (max-width: 458px) {
   .navbar .container-fluid, .navbar .container-xxl, .navbar .container-xl, .navbar .container-lg, .navbar .container-md, .navbar .container-sm {
@@ -198,10 +202,10 @@ html body .footer .pre-footer a {
 }
 @media (max-width: 768px) {
   .interactive-main .tarjetas-container .tarjeta {
-    margin: 10px 0 !important;
+    margin: 10px 5px !important;
   }
   .interactive-main .tarjetas-container .tarjeta-info {
-    margin: 20px 0 10px !important;
+    margin: 20px 5px 10px !important;
   }
 }
 /*  PAGINA CALISTENIA  */
