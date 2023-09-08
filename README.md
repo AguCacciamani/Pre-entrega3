@@ -11,6 +11,6 @@ Contenido:
 -Animaciones: Cards inicio, cards tienda, botones de navbars, form, iconos y boton enviar en pág contacto.
 -Gradientes en todas las páginas.
 -Anidacion de codigo en todas las paginas.
--Uso de variables para colores.
+-Uso de variables para colores principales.
 -Uso de @extend para botones de cards en la tienda.
 -Uso de medias query en todas las págs.
