@@ -23,14 +23,13 @@
   box-sizing: border-box;
 }
 
-::selection {
-  background-color: rgba(229, 67, 67, 0.8196078431);
-  color: #181818;
-}
-
 /*  INICIO  */
 html {
   scroll-behavior: smooth;
+}
+html ::selection {
+  background-color: rgba(229, 67, 67, 0.8196078431);
+  color: #181818;
 }
 html body {
   width: 100%;
