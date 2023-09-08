@@ -219,11 +219,20 @@ html body .footer .pre-footer a:hover {
   height: 430px;
   object-fit: cover;
 }
+#main-calistenia h1, #main-calistenia .h1 {
+  max-width: 900px;
+  margin: 20px auto;
+  font-size: 4rem;
+  color: #d41c1c;
+  text-shadow: 3px 1px 3px black;
+  text-align: center;
+  text-transform: uppercase;
+}
 #main-calistenia .primer-div {
   text-align: right;
   display: grid;
   width: 100%;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 55% 45%;
   grid-template-areas: "primer-div-texto primer-div-img" "primer-div-texto primer-div-iframe";
   grid-template-rows: 1fr 1fr;
   border-bottom: solid 2px #343434;
@@ -257,7 +266,7 @@ html body .footer .pre-footer a:hover {
   text-align: left;
   display: grid;
   width: 100%;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 45% 55%;
   grid-template-rows: auto;
   border-bottom: solid 2px #343434;
   padding-bottom: 20px;
@@ -279,7 +288,7 @@ html body .footer .pre-footer a:hover {
   text-align: right;
   display: grid;
   width: 100%;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 55% 45%;
   grid-template-areas: "tercer-div-texto tercer-div-iframeUno" "tercer-div-texto tercer-div-iframeDos";
   grid-template-rows: 1fr 1fr;
 }
@@ -311,36 +320,40 @@ html body .footer .pre-footer a:hover {
 }
 
 @media (max-width: 900px) {
-  .primer-div {
+  #main-calistenia h1, #main-calistenia .h1 {
+    font-size: 2.5rem;
+    margin: 20px 5px;
+  }
+  #main-calistenia .primer-div {
     display: flex !important;
     flex-direction: column;
   }
-  .primer-div .primer-div-texto p {
+  #main-calistenia .primer-div .primer-div-texto p {
     margin: 20px;
   }
-  .primer-div .primer-div-img {
+  #main-calistenia .primer-div .primer-div-img {
     padding: 0;
     margin: 10px auto;
   }
-  .segundo-div {
+  #main-calistenia .segundo-div {
     display: flex !important;
     flex-direction: column-reverse;
   }
-  .segundo-div h2, .segundo-div .h2 {
+  #main-calistenia .segundo-div h2, #main-calistenia .segundo-div .h2 {
     text-align: left;
   }
-  .segundo-div p {
+  #main-calistenia .segundo-div p {
     text-align: left;
     margin: 20px;
   }
-  .tercer-div {
+  #main-calistenia .tercer-div {
     display: flex !important;
     flex-direction: column;
   }
-  .tercer-div p {
+  #main-calistenia .tercer-div p {
     margin: 20px;
   }
-  .tercer-div iframe {
+  #main-calistenia .tercer-div iframe {
     margin: 10px auto;
   }
 }
@@ -569,6 +582,16 @@ html body .footer .pre-footer a:hover {
 .main-tienda {
   background-image: linear-gradient(90deg, #181818, #767676);
 }
+.main-tienda h1, .main-tienda .h1 {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 0;
+  font-size: 4rem;
+  color: #d41c1c;
+  text-shadow: 3px 1px 3px black;
+  text-align: center;
+  text-transform: uppercase;
+}
 .main-tienda .indumentaria section div img {
   width: 100%;
 }
@@ -698,6 +721,11 @@ html body .footer .pre-footer a:hover {
   text-shadow: 3px 1px 3px black;
 }
 
+@media (max-width: 900px) {
+  .main-tienda h1, .main-tienda .h1 {
+    font-size: 2.5rem;
+  }
+}
 /* PAGINA CONTACTO */
 #contacto-body {
   background-image: linear-gradient(90deg, #181818, #767676);

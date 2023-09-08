@@ -64,7 +64,16 @@
 
 .main-tienda {
     background-image: linear-gradient(90deg, $dark, #767676);
-
+    h1 {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px 0;
+        font-size: 4rem;
+        color: $danger;
+        text-shadow: 3px 1px 3px black;
+        text-align: center;
+        text-transform: uppercase;
+    }
     .indumentaria {
         section {
             div {
@@ -240,6 +249,14 @@
             font-size: 60px;
             color: $danger;
             text-shadow: 3px 1px 3px black;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .main-tienda {
+        h1 {
+            font-size: 2.5rem;
         }
     }
 }

@@ -15,11 +15,21 @@
         }
     }
 
+    h1 {
+        max-width: 900px;
+        margin: 20px auto;
+        font-size: 4rem;
+        color: $danger;
+        text-shadow: 3px 1px 3px black;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
     .primer-div {
         text-align: right;
         display: grid;
         width: 100%;
-        grid-template-columns: 60% 40%;
+        grid-template-columns: 55% 45%;
         grid-template-areas:
             "primer-div-texto primer-div-img"
             "primer-div-texto primer-div-iframe"
@@ -62,7 +72,7 @@
         text-align: left;
         display: grid;
         width: 100%;
-        grid-template-columns: 40% 60%;
+        grid-template-columns: 45% 55%;
         grid-template-rows: auto;
         border-bottom: solid 2px $primary;
         padding-bottom: 20px;
@@ -88,7 +98,7 @@
         text-align: right;
         display: grid;
         width: 100%;
-        grid-template-columns: 60% 40%;
+        grid-template-columns: 55% 45%;
         grid-template-areas:
             "tercer-div-texto tercer-div-iframeUno"
             "tercer-div-texto tercer-div-iframeDos"
@@ -132,46 +142,52 @@
 
 @media (max-width: 900px) {
 
-    .primer-div {
-        display: flex !important;
-        flex-direction: column;
-
-        .primer-div-texto {
+    #main-calistenia {
+        h1 {
+            font-size: 2.5rem;
+            margin: 20px 5px;
+        }
+        .primer-div {
+            display: flex !important;
+            flex-direction: column;
+    
+            .primer-div-texto {
+                p {
+                    margin: 20px;
+                }
+            }
+    
+            .primer-div-img {
+                padding: 0;
+                margin: 10px auto;
+            }
+        }
+    
+        .segundo-div {
+            display: flex !important;
+            flex-direction: column-reverse;
+    
+            h2 {
+                text-align: left;
+            }
+    
             p {
+                text-align: left;
                 margin: 20px;
             }
         }
-
-        .primer-div-img {
-            padding: 0;
-            margin: 10px auto;
-        }
-    }
-
-    .segundo-div {
-        display: flex !important;
-        flex-direction: column-reverse;
-
-        h2 {
-            text-align: left;
-        }
-
-        p {
-            text-align: left;
-            margin: 20px;
-        }
-    }
-
-    .tercer-div {
-        display: flex !important;
-        flex-direction: column;
-
-        p {
-            margin: 20px;
-        }
-
-        iframe {
-            margin: 10px auto;
+    
+        .tercer-div {
+            display: flex !important;
+            flex-direction: column;
+    
+            p {
+                margin: 20px;
+            }
+    
+            iframe {
+                margin: 10px auto;
+            }
         }
     }
 }
