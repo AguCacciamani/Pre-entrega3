@@ -50,6 +50,7 @@
             p {
                 text-align: left;
                 margin: 0 0 20px 30px;
+                font-family: 'Poppins', sans-serif;
             }
         }
 
@@ -86,6 +87,8 @@
         p {
             text-align: right;
             margin: 0 30px 20px 0;
+            font-family: 'Poppins', sans-serif;
+            color: #fff;
         }
 
         img {
@@ -111,6 +114,10 @@
             p {
                 text-align: left;
                 margin: 0 0 20px 30px;
+                font-family: 'Poppins', sans-serif;
+                b {
+                    font-family: 'Alata', sans-serif;
+                }
 
                 a {
                     color: $light;

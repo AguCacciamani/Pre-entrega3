@@ -30,19 +30,20 @@
                 border: none;
                 border-bottom: #313131 solid 1px;
                 color: #cacaca;
-            }
-
-            .input-contacto:hover {
                 background-image: linear-gradient(to top, #95959586, 30%, transparent);
+                background-position: 0% 100%;
+                background-repeat: no-repeat;
+                background-size: 100% 0%;
+                transition: background-size 0.2s;
+                
+                &:hover {
+                    background-size: 100% 100%;
+                }
             }
 
             .input-contacto:focus {
                 height: 30px;
                 background-image: inherit;
-            }
-
-            .textarea:hover {
-                background-image: linear-gradient(to top, #95959586, 30%, transparent);
             }
 
             .textarea:focus {
